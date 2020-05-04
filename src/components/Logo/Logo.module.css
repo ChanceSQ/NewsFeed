@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+.logo {
+  color: black;
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
