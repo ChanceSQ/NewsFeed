@@ -9,7 +9,7 @@ class ArticleList extends Component {
 
   grabList(country) {
     fetch(
-      `http://newsapi.org/v2/top-headlines?country=${country}&apiKey=${process.env.REACT_APP_API_KEY}`
+      `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${process.env.REACT_APP_API_KEY}`
     )
       .then((res) => res.json())
       .then((data) => {
